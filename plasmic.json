@@ -1,0 +1,93 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "pq6ug4ikuYjpL7VEiqrPsS",
+      "projectApiToken": "z2dlyJ5l72zpk60g2syqjqQFQ1fURlrTyNkEndh5vjUj09EjqKeBiDcpxvRVuf3RTOrlTZWgt6fikMEaPwOeGg",
+      "projectName": "Proiect propriu",
+      "version": "latest",
+      "cssFilePath": "plasmic/proiect_propriu/plasmic_proiect_propriu.module.css",
+      "components": [
+        {
+          "id": "uyWzwSszdbnKp",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "pq6ug4ikuYjpL7VEiqrPsS",
+          "renderModuleFilePath": "plasmic/proiect_propriu/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/proiect_propriu/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "kRgg0nto06E_y",
+          "name": "Ellipse1Icon",
+          "moduleFilePath": "plasmic/proiect_propriu/icons/PlasmicIcon__Ellipse1.tsx"
+        },
+        {
+          "id": "g4DB_p21vA",
+          "name": "Ellipse12Icon",
+          "moduleFilePath": "plasmic/proiect_propriu/icons/PlasmicIcon__Ellipse12.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "uQ38QTxeXpOUc",
+          "name": "term 1",
+          "filePath": "../public/plasmic/proiect_propriu/images/term1.png"
+        },
+        {
+          "id": "S8-xs0ovCgU0M",
+          "name": "term 1 2",
+          "filePath": "../public/plasmic/proiect_propriu/images/term12.png"
+        },
+        {
+          "id": "eOyciZzH7",
+          "name": "camp1.jpg",
+          "filePath": "../public/plasmic/proiect_propriu/images/camp1Jpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "-1TDKQ74ccMwU",
+        "name": "Screen",
+        "projectId": "pq6ug4ikuYjpL7VEiqrPsS",
+        "contextFilePath": "plasmic/proiect_propriu/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}
